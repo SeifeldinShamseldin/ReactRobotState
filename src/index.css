@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+p {
+
+  font-size: 18px;
+}
+
+/* Use full width */
+.container {
+  max-width: 100%;
+}
+
+/* Add some padding and set a minimum height for the map to make it more visible */
+#nav_div {
+  padding: 20px;
+  min-height: 400px; /* Adjust based on your preference */
+  width: 100%; /* Use the full width of the container */
+  background-color: #f0f0f0; /* Just an example to make the map area visible */
+}
+
+/* Responsive layout for different elements */
+@media (min-width: 768px) {
+  .robot-status, .controls {
+    padding: 10px;
+  }
+}
+
